@@ -1,0 +1,28 @@
+// Fonts
+$base-font: 16px;
+$h1-font-size: 3rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.5rem;
+$font-family: 'Merriweather';
+$code-font-family: 'Source Code Pro';
+
+// Colors
+$bg-color: #333;
+$fg-color: #EEE;
+$accent-color-1: #E84ABC;
+$accent-color-2: #188ABC;
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $base-font;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  background-color: $bg-color;
+  color: $fg-color;
+  h1 { font-size: $h1-font-size; }
+  h2 { font-size: $h2-font-size; }
+  h3 { font-size: $h3-font-size; }
+  code { font-family: $code-font-family; }
+}
